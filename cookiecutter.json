@@ -1,0 +1,11 @@
+{
+  "full_name": "Ian Thomas",
+  "email": "thomasian06@gmail.com",
+  "github_username": "thomasian06",
+  "project_name": "Cookiecutter Python",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
+  "package_name": "{{ cookiecutter.project_slug.lower().replace(' ', '_').replace('-', '_') }}",
+  "project_description": "Cookiecutter Python is a minimal cookiecutter template to get started on a python project.",
+  "pypi_username": "{{ cookiecutter.github_username }}",
+  "version": "0.1.0",
+}
